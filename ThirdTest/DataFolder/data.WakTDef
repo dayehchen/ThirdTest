@@ -1,0 +1,1 @@
+﻿[{"dataTableNum":1,"tableName":"DataClass1","dataTableID":"02A7087467890542BF09D374973B6670","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"Name","posInRecord":2}]},{"dataTableNum":2,"tableName":"DataClass2","dataTableID":"D9297CF5CA4AC545AB95B6D054695E35","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"ddd","posInRecord":2}]}]

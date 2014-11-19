@@ -1,1 +1,83 @@
-﻿{	"toJSON": true,	"extraProperties": {		"version": "2",		"classes": {			"DataClass1": {				"panelColor": "#996699",				"panel": {					"isOpen": "true",					"position": {						"X": 25,						"Y": 20					},					"pathVisible": true				}			}		},		"model": {			"scriptMode": "manual",			"workspaceLeft": 0,			"workspaceTop": 0		}	},	"dataClasses": [		{			"collectionName": "DataClass1Collection",			"className": "DataClass1",			"attributes": [				{					"name": "ID",					"kind": "storage",					"type": "long",					"autosequence": "true",					"unique": "true",					"primKey": "true"				},				{					"name": "Name",					"scope": "public",					"type": "string",					"kind": "storage"				}			]		}	],	"type": []}
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"DataClass1": {
+				"panelColor": "#996699",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			},
+			"DataClass2": {
+				"panelColor": "#4FA997",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 265,
+						"Y": 20
+					},
+					"pathVisible": true
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "DataClass1",
+			"className": "DataClass1",
+			"collectionName": "DataClass1Collection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"type": "uuid",
+					"primKey": "true",
+					"autosequence": true,
+					"unique": true,
+					"autogenerate": true
+				},
+				{
+					"name": "Name",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				}
+			]
+		},
+		{
+			"collectionName": "DataClass2Collection",
+			"className": "DataClass2",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "uuid",
+					"primKey": "true",
+					"autosequence": true,
+					"unique": true,
+					"autogenerate": true
+				},
+				{
+					"name": "ddd",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				}
+			]
+		}
+	],
+	"type": []
+}

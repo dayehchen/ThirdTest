@@ -5,15 +5,21 @@
 		<meta name="generator" content="Wakanda GUIDesigner"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 		<meta name="WAF.packageJson"/>
-		<meta name="WAF.catalog" content="DataClass1"/>
+		<meta name="WAF.catalog" content="DataClass1,DataClass2"/>
 		<meta name="wakanda-version" content="9 build 9.170192"/>
 		<meta name="wakanda-build" content="9.170192"/>
-		<meta id="waf-interface-css" name="WAF.config.loadCSS" content="styles/index.css"/>
-		<meta id="waf-project-css" name="WAF.config.loadCSS" content="/application.css"/>
+		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
+		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
 
-		<meta data-type="dataSource" data-lib="WAF" data-source="DataClass1" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="dataClass1" content="dataClass1"/></head>
-	<body id="waf-body" data-type="document" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-lib="WAF" data-entire-model="false" data-platform="desktop" data-viewport-width="device-width" data-viewport-initial-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-minimum-scale="1.0" data-apple-meta-tags-status-bar="default" data-workspace-device="desktop" data-workspace-orientation="portrait" data-workspace-width="0" data-workspace-height="0" data-group="[]" data-theme="default" style="bottom:;right:;visibility:hidden;">
-		<div id="dataGrid1" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'ID','colID':'ID','width':'70','title':'ID'},{'sourceAttID':'Name','colID':'Name','width':'150','title':'Name'}]" data-constraint-left="true" data-constraint-top="true" data-binding="dataClass1"></div>
+		<meta data-type="dataSource" data-lib="WAF" data-source="mysqlVehicle" data-source-type="array" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="mysqlVehicle" data-attributes="V_VEHICLE_ID:string,V_VIN_NUMBER:string,V_VEHICLE_TYPE:string" content="mysqlVehicle"/>
+		<meta data-type="dataSource" data-lib="WAF" data-source="DataClass2" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="dataClass2" content="dataClass2"/>
+		<meta data-type="dataSource" data-lib="WAF" data-source="DataClass1" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="dataClass1" content="dataClass1"/><meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
+<meta name="WAF.config.rpc.file" content="/rpc-proxy/rpcHandler?namespace=rpcHandler"/>
+</head>
+	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="false" data-apple-meta-tags-status-bar="default" data-title="Main Page" style="bottom:;right:;visibility:hidden;">
+	<div id="dataGrid2" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'V_VEHICLE_ID','colID':'V_VEHICLE_ID','width':'150','title':'VEHICLE_ID'},{'sourceAttID':'V_VIN_NUMBER','colID':'V_VIN_NUMBER','width':'150','title':'VIN_NUMBER'},{'sourceAttID':'V_VEHICLE_TYPE','colID':'V_VEHICLE_TYPE','width':'150','title':'VEHICLE_TYPE'}]" data-constraint-left="true" data-constraint-top="true" data-binding="mysqlVehicle"></div>
+		<button id="button1" data-type="button" data-lib="WAF" class="waf-widget waf-button" data-action="simple" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-text="Query"></button>
+		<div id="dataGrid3" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'ddd','colID':'ddd','width':'150','title':'ddd'},{'sourceAttID':'ID','colID':'ID','width':'150','title':'id'}]" data-constraint-left="true" data-constraint-top="true" data-binding="dataClass2"></div>
 		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
-</body>
+	</body>
 </html>
