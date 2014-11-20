@@ -1,83 +1,1356 @@
-﻿{
-	"toJSON": true,
-	"extraProperties": {
-		"version": "2",
-		"classes": {
-			"DataClass1": {
-				"panelColor": "#996699",
-				"panel": {
-					"isOpen": "true",
-					"pathVisible": true,
-					"position": {
-						"X": 25,
-						"Y": 20
+
+{
+	"toJSON" : true,
+	"extraProperties" : 
+	{
+		"version" : "2",
+		"classes" : 
+		{
+			"User" : 
+			{
+				"panelColor" : "#70CCC2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : "true",
+					"position" : 
+					{
+						"X" : "65",
+						"Y" : "29"
 					}
 				}
 			},
-			"DataClass2": {
-				"panelColor": "#4FA997",
-				"panel": {
-					"isOpen": "true",
-					"position": {
-						"X": 265,
-						"Y": 20
-					},
-					"pathVisible": true
+			"Lead" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : "444",
+						"Y" : "35"
+					}
+				}
+			},
+			"Contact" : 
+			{
+				"panelColor" : "#fff",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "405",
+						"Y" : "46"
+					}
+				}
+			},
+			"Account" : 
+			{
+				"panelColor" : "#eee",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "692",
+						"Y" : "46"
+					}
+				}
+			},
+			"RecentItem" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "84",
+						"Y" : "63"
+					}
+				}
+			},
+			"Activity" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "88",
+						"Y" : "46"
+					}
+				}
+			},
+			"Priority" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "25",
+						"Y" : "20"
+					}
+				}
+			},
+			"Note" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "80",
+						"Y" : "78"
+					}
+				}
+			},
+			"Log" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "false",
+					"position" : 
+					{
+						"X" : "469",
+						"Y" : "24"
+					}
+				}
+			},
+			"Epcs_component" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 395,
+						"Y" : 102
+					}
+				}
+			},
+			"Software_version" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1245,
+						"Y" : 431
+					}
+				}
+			},
+			"Inventory_location" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 826,
+						"Y" : 237
+					}
+				}
+			},
+			"Epcs_type" : 
+			{
+				"panelColor" : "#996699",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 822,
+						"Y" : 764
+					}
+				}
+			},
+			"Repair_history" : 
+			{
+				"panelColor" : "#B2A2C7",
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 39,
+						"Y" : 27
+					}
+				}
+			},
+			"Component_rework" : 
+			{
+				"panelColor" : "#996699",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 56,
+						"Y" : 241
+					}
+				}
+			},
+			"Pcb" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 37,
+						"Y" : 549
+					}
+				}
+			},
+			"Pcb_rework" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 45,
+						"Y" : 828
+					}
+				}
+			},
+			"Flash_history" : 
+			{
+				"panelColor" : "#8DB3E2",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 860,
+						"Y" : 515
+					}
+				}
+			},
+			"Version_constrain" : 
+			{
+				"panelColor" : "#76923C",
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 1260,
+						"Y" : 762
+					}
+				}
+			},
+			"Vehicle" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"panel" : 
+				{
+					"pathVisible" : true,
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 397,
+						"Y" : 833
+					}
+				}
+			},
+			"Usage_history" : 
+			{
+				"panelColor" : "#996699",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 829,
+						"Y" : 27
+					}
+				}
+			},
+			"Service_event" : 
+			{
+				"panelColor" : "#CCC1D9",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 816,
+						"Y" : 1025
+					}
+				}
+			},
+			"Service_detail" : 
+			{
+				"panelColor" : "#B8CCE4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1257,
+						"Y" : 953
+					}
+				}
+			},
+			"Service_type" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1254,
+						"Y" : 1174
+					}
 				}
 			}
 		},
-		"model": {
-			"scriptMode": "manual",
-			"workspaceLeft": 0,
-			"workspaceTop": 0
+		"model" : 
+		{
+			"scriptMode" : "manual",
+			"workspaceLeft" : 0,
+			"workspaceTop" : 0,
+			"relationCurve" : 
+			{
+				"run" : true,
+				"mode" : 1
+			}
 		}
 	},
-	"dataClasses": [
+	"dataClasses" : 
+	[
 		{
-			"name": "DataClass1",
-			"className": "DataClass1",
-			"collectionName": "DataClass1Collection",
-			"scope": "public",
-			"attributes": [
+			"name" : "Component_rework",
+			"className" : "Component_rework",
+			"collectionName" : "Component_reworkCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"scope": "public",
-					"type": "uuid",
-					"primKey": "true",
-					"autosequence": true,
-					"unique": true,
-					"autogenerate": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "Name",
-					"kind": "storage",
-					"scope": "public",
-					"type": "string"
+					"name" : "attribute1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "failure_method",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "symptom",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "root_cause",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "return_necessary",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "epcs_component",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_component",
+					"path" : "Epcs_component"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		},
 		{
-			"collectionName": "DataClass2Collection",
-			"className": "DataClass2",
-			"attributes": [
+			"name" : "Epcs_component",
+			"className" : "Epcs_component",
+			"collectionName" : "Epcs_componentCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
 				{
-					"name": "ID",
-					"kind": "storage",
-					"type": "uuid",
-					"primKey": "true",
-					"autosequence": true,
-					"unique": true,
-					"autogenerate": true
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
 				},
 				{
-					"name": "ddd",
-					"scope": "public",
-					"type": "string",
-					"kind": "storage"
+					"name" : "serial_number",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "hardware_version",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "software_version",
+					"kind" : "relatedEntity",
+					"matchColumn" : "software_version_id",
+					"scope" : "public",
+					"type" : "Software_version",
+					"path" : "Software_version"
+				},
+				{
+					"name" : "date_installed",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "rework",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "date_built",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "inventory_location",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Inventory_location",
+					"path" : "Inventory_location"
+				},
+				{
+					"name" : "epcs_type",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_type",
+					"path" : "Epcs_type"
+				},
+				{
+					"name" : "builder",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "repair_historyCollection",
+					"kind" : "relatedEntities",
+					"matchColumn" : "repair_history,epcs_component",
+					"scope" : "public",
+					"type" : "Repair_historyCollection",
+					"reversePath" : true,
+					"path" : "epcs_component"
+				},
+				{
+					"name" : "reworkCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Component_reworkCollection",
+					"reversePath" : true,
+					"path" : "epcs_component"
+				},
+				{
+					"name" : "pcbCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "PcbCollection",
+					"reversePath" : true,
+					"path" : "epcs_component"
+				},
+				{
+					"name" : "flash_historyCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Flash_historyCollection",
+					"reversePath" : true,
+					"path" : "epcs_component"
+				},
+				{
+					"name" : "usage_historyCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Usage_historyCollection",
+					"reversePath" : true,
+					"path" : "epcs_component"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Epcs_type",
+			"className" : "Epcs_type",
+			"collectionName" : "Epcs_typeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "part_number",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "part_type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "epcs_componentCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Epcs_componentCollection",
+					"reversePath" : true,
+					"path" : "epcs_type"
+				},
+				{
+					"name" : "version_constrain",
+					"kind" : "relatedEntities",
+					"matchColumn" : "dataClass1Collection",
+					"scope" : "public",
+					"type" : "Version_constrainCollection",
+					"reversePath" : true,
+					"path" : "epcs_type"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Flash_history",
+			"className" : "Flash_history",
+			"collectionName" : "Flash_historyCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "flash_time",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "operator",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "current_use",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "epcs_component",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_component",
+					"path" : "Epcs_component"
+				},
+				{
+					"name" : "software_version",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Software_version",
+					"path" : "Software_version"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Inventory_location",
+			"className" : "Inventory_location",
+			"collectionName" : "Inventory_locationCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "location",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "epcs_componentCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Epcs_componentCollection",
+					"reversePath" : true,
+					"path" : "inventory_location"
+				},
+				{
+					"name" : "vehicle",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "VehicleCollection",
+					"reversePath" : true,
+					"path" : "inventory_location"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Pcb",
+			"className" : "Pcb",
+			"collectionName" : "PcbCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "epcs_component",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_component",
+					"path" : "Epcs_component"
+				},
+				{
+					"name" : "pcb_serial_number",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "glum",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "grneration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "pcb_reworkCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Pcb_reworkCollection",
+					"reversePath" : true,
+					"path" : "pcb"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Pcb_rework",
+			"className" : "Pcb_rework",
+			"collectionName" : "Pcb_reworkCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "pcb",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Pcb",
+					"path" : "Pcb"
+				},
+				{
+					"name" : "failure_method",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "symptom_type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "root_cause",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "return_necessary",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Repair_history",
+			"className" : "Repair_history",
+			"collectionName" : "Repair_historyCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "repair_date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "repair_note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "epcs_component",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_component",
+					"path" : "Epcs_component"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Service_detail",
+			"className" : "Service_detail",
+			"collectionName" : "Service_detailCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "work_time",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "service_event",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Service_event",
+					"path" : "Service_event"
+				},
+				{
+					"name" : "service_code",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Service_type",
+					"path" : "Service_type"
+				},
+				{
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Service_event",
+			"className" : "Service_event",
+			"collectionName" : "Service_eventCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "attribute1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "service_date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "service_reason",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "service_duration",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				},
+				{
+					"name" : "work_done",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "date_vehicle_left_repair_loc",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "service_location",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "mileage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "vehicle",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Vehicle",
+					"path" : "Vehicle"
+				},
+				{
+					"name" : "service_detailCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Service_detailCollection",
+					"reversePath" : true,
+					"path" : "service_event"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Service_type",
+			"className" : "Service_type",
+			"collectionName" : "Service_typeCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "attribute1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "service_name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "service_category",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "service_detailCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Service_detailCollection",
+					"reversePath" : true,
+					"path" : "service_code"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Software_version",
+			"className" : "Software_version",
+			"collectionName" : "Software_versionCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "version_name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "date_released",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "release_note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "epcs_componentCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Epcs_componentCollection",
+					"reversePath" : true,
+					"path" : "software_version"
+				},
+				{
+					"name" : "flash_historyCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Flash_historyCollection",
+					"reversePath" : true,
+					"path" : "software_version"
+				},
+				{
+					"name" : "dataClass1Collection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Version_constrainCollection",
+					"reversePath" : true,
+					"path" : "software_version"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Usage_history",
+			"className" : "Usage_history",
+			"collectionName" : "Usage_historyCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "vehicle",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Vehicle",
+					"path" : "Vehicle"
+				},
+				{
+					"name" : "epcs_component",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_component",
+					"path" : "Epcs_component"
+				},
+				{
+					"name" : "usage_note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Vehicle",
+			"className" : "Vehicle",
+			"collectionName" : "VehicleCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "inventory_location",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Inventory_location",
+					"path" : "Inventory_location"
+				},
+				{
+					"name" : "color",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "date_built",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "date_shipped",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "build_loc_body",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "build_loc_chassis",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "vehicle_type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "mileage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "ac_type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "vehicle_location",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "aux_hydraulics",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dealer",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "vehicle_owner",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "current_owner_acquire_date",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "date",
+					"simpleDate" : false
+				},
+				{
+					"name" : "usage_historyCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Usage_historyCollection",
+					"reversePath" : true,
+					"path" : "vehicle"
+				},
+				{
+					"name" : "service_eventCollection",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Service_eventCollection",
+					"reversePath" : true,
+					"path" : "vehicle"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Version_constrain",
+			"className" : "Version_constrain",
+			"collectionName" : "Version_constrainCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "software_version",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Software_version",
+					"path" : "Software_version"
+				},
+				{
+					"name" : "epcs_type",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Epcs_type",
+					"path" : "Epcs_type"
+				},
+				{
+					"name" : "note",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
 				}
 			]
 		}
-	],
-	"type": []
+	]
 }

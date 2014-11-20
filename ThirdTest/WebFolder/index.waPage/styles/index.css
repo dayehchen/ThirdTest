@@ -3,34 +3,56 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#dataGrid3 {
-	 z-index: 5;
-	 width: 636px;
-	 height: 300px;
-	 top: 382px;
+#component1 {
+	 z-index: 1;
+	 width: 604px;
+	 height: 472px;
+	 top: 22px;
+	 left: 34px;
+	
+	 position: absolute;
+	 
+}
+
+#container1 {
+	 z-index: 10;
+	 width: 667px;
+	 height: 505px;
+	 top: 705px;
 	 left: 36px;
 	
 	 position: absolute;
 	 
 }
 
-#button1 {
-	 z-index: 4;
-	 width: 92px;
-	 height: 22px;
-	 top: 351px;
-	 left: 202px;
+#dataGrid4 {
+	 z-index: 9;
+	 width: 577px;
+	 height: 300px;
+	 top: 390px;
+	 left: 45px;
 	
 	 position: absolute;
 	 
 }
 
-#dataGrid2 {
-	 z-index: 3;
-	 width: 640px;
+#dataGrid1 {
+	 z-index: 7;
+	 width: 607px;
 	 height: 300px;
-	 top: 31px;
-	 left: 40px;
+	 top: 48px;
+	 left: 47px;
+	
+	 position: absolute;
+	 
+}
+
+#button {
+	 z-index: 8;
+	 width: 92px;
+	 height: 22px;
+	 top: 360px;
+	 left: 128px;
 	
 	 position: absolute;
 	 

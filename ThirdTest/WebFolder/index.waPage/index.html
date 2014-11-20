@@ -5,21 +5,25 @@
 		<meta name="generator" content="Wakanda GUIDesigner"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 		<meta name="WAF.packageJson"/>
-		<meta name="WAF.catalog" content="DataClass1,DataClass2"/>
+		<meta name="WAF.catalog" content="Vehicle"/>
 		<meta name="wakanda-version" content="9 build 9.170192"/>
 		<meta name="wakanda-build" content="9.170192"/>
 		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
 		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
 
-		<meta data-type="dataSource" data-lib="WAF" data-source="mysqlVehicle" data-source-type="array" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="mysqlVehicle" data-attributes="V_VEHICLE_ID:string,V_VIN_NUMBER:string,V_VEHICLE_TYPE:string" content="mysqlVehicle"/>
-		<meta data-type="dataSource" data-lib="WAF" data-source="DataClass2" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="dataClass2" content="dataClass2"/>
-		<meta data-type="dataSource" data-lib="WAF" data-source="DataClass1" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="dataClass1" content="dataClass1"/><meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="array" data-source="mysqlVehicle" data-lib="WAF" data-id="mysqlVehicle" data-dataType="string" data-autoLoad="true" data-attributes="V_VEHICLE_ID:string,V_VIN_NUMBER:string,V_VEHICLE_TYPE:string" content="mysqlVehicle"/>
+		<meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
 <meta name="WAF.config.rpc.file" content="/rpc-proxy/rpcHandler?namespace=rpcHandler"/>
-</head>
-	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="false" data-apple-meta-tags-status-bar="default" data-title="Main Page" style="bottom:;right:;visibility:hidden;">
-	<div id="dataGrid2" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'V_VEHICLE_ID','colID':'V_VEHICLE_ID','width':'150','title':'VEHICLE_ID'},{'sourceAttID':'V_VIN_NUMBER','colID':'V_VIN_NUMBER','width':'150','title':'VIN_NUMBER'},{'sourceAttID':'V_VEHICLE_TYPE','colID':'V_VEHICLE_TYPE','width':'150','title':'VEHICLE_TYPE'}]" data-constraint-left="true" data-constraint-top="true" data-binding="mysqlVehicle"></div>
-		<button id="button1" data-type="button" data-lib="WAF" class="waf-widget waf-button" data-action="simple" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-text="Query"></button>
-		<div id="dataGrid3" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'ddd','colID':'ddd','width':'150','title':'ddd'},{'sourceAttID':'ID','colID':'ID','width':'150','title':'id'}]" data-constraint-left="true" data-constraint-top="true" data-binding="dataClass2"></div>
+
+		<meta data-type="dataSource" data-lib="WAF" data-source="Vehicle" data-source-type="dataClass" data-dataType="string" data-autoLoad="true" name="WAF.config.datasources" data-id="vehicle" content="vehicle"/></head>
+	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-title="Main Page" data-theme="default" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="false" data-apple-meta-tags-status-bar="default" style="bottom:;right:;visibility:hidden;">
+		<div id="dataGrid1" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'V_VEHICLE_ID','colID':'V_VEHICLE_ID','width':'150','title':'V_VEHICLE_ID'},{'sourceAttID':'V_VIN_NUMBER','colID':'V_VIN_NUMBER','width':'150','title':'V_VIN_NUMBER'},{'sourceAttID':'V_VEHICLE_TYPE','colID':'V_VEHICLE_TYPE','width':'150','title':'V_VEHICLE_TYPE'}]" data-constraint-left="true" data-constraint-top="true" data-binding="mysqlVehicle"></div>
+		<button id="button" data-type="button" data-lib="WAF" class="waf-widget waf-button" data-action="simple" data-target="_blank" data-constraint-left="true" data-constraint-top="true" data-text="Query"></button>
+		<div id="dataGrid4" data-type="dataGrid" data-lib="WAF" class="waf-widget waf-dataGrid" data-label="" data-label-position="top" data-selection-mode="single" data-display-error="true" data-footer-text="item(s)" data-column="[{'sourceAttID':'ID','colID':'ID','width':'131','title':'ID'},{'sourceAttID':'color','colID':'color','width':'150','title':'color'},{'sourceAttID':'vehicle_type','colID':'vehicle_type','width':'150','title':'vehicle_type'}]" data-constraint-left="true" data-constraint-top="true" data-binding="vehicle"></div>
+		<div id="container1" data-type="container" data-lib="WAF" class="waf-widget waf-container waf-container-level-0 waf-level-0" data-label="" data-label-position="top" data-constraint-left="true" data-constraint-top="true">
+	 	 	<div id="component1" data-type="component" data-lib="WAF" class="waf-widget waf-component" data-constraint-left="true" data-constraint-top="true" data-constraint-bottom="false" data-constraint-right="false" data-path="/components/dashboard.waComponent"></div>
+ 	 	</div>
+	
 		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
 	</body>
 </html>

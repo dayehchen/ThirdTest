@@ -2,14 +2,13 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
-	var button1 = {};	// @button
+	var button = {};	// @button
 // @endregion// @endlock
 
 // eventHandlers// @lock
 
-	button1.click = function button1_click (event)// @startlock
+	button.click = function button_click (event)// @startlock
 	{// @endlock
-
 		var connectionParams = {
 			hostname: 'www.motivps.com',
 			port: 3306,
@@ -22,9 +21,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		mysqlVehicle = rpcHandler.getAllVehicles(connectionParams);
 		
 		sources.mysqlVehicle.sync();
+
 	};// @lock
 
 // @region eventManager// @startlock
-	WAF.addListener("button1", "click", button1.click, "WAF");
+	WAF.addListener("button", "click", button.click, "WAF");
 // @endregion
 };// @endlock
